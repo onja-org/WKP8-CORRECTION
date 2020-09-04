@@ -162,10 +162,26 @@ fieldset button:hover {
 .song {
 	display: grid;
 	grid-auto-flow: column;
-	justify-items: center;
+	gap: 30px;
+	grid-template-columns: 100px 1fr 1fr 1fr 1fr;
 }
 
 .song img {
 	width: 100px;
 	height: 100px;
+}
+
+.song section {
+	display: grid;
+	align-items: center;
+}
+
+.buttons {
+	grid-auto-flow: column;
+	gap: 5px;
+}
+
+.buttons img {
+	width: 14px;
+	height: 14px;
 }
